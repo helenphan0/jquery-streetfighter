@@ -32,9 +32,8 @@ $(document).ready(function() {
 		$(".ryu-ready").hide();
 		$(".ryu-still").hide();
 		$(".ryu-cool").show();
-	}}); 
-	
-	$(document).keyup(function(e) {
+	}}) 
+	.keyup(function(e) {
 		if (e.keyCode == 88) {
 		$(".ryu-cool").hide();
 		$(".ryu-still").show();
